@@ -1,10 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="880" height="404" viewBox="0 0 880 404" role="img" aria-label="Alexander Vladimirov, full-stack developer">
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="416" viewBox="0 0 880 416" role="img" aria-label="Alexander Vladimirov, full-stack developer">
   <style>
     .tail { transform-origin: 150px -12px; animation: sway 4s ease-in-out infinite; }
     @keyframes sway { 0%, 100% { transform: rotate(0deg); } 50% { transform: rotate(7deg); } }
     @media (prefers-reduced-motion: reduce) { .tail { animation: none; } }
   </style>
-  <foreignObject x="0" y="64" width="880" height="336">
+  <foreignObject x="0" y="76" width="880" height="336">
     <div xmlns="http://www.w3.org/1999/xhtml" class="win">
       <style>
         * { box-sizing: border-box; margin: 0; }
@@ -74,17 +74,18 @@
       </div>
     </div>
   </foreignObject>
-  <g transform="translate(610 65) scale(1)">
-  <g class="cat">
-    <path class="tail" d="M150,-12 C172,-12 180,2 178,20 C177,32 182,40 192,42" fill="none" stroke="#213547" stroke-width="9" stroke-linecap="round"/>
-    <ellipse cx="88" cy="-19" rx="60" ry="19" fill="#213547"/>
-    <ellipse cx="128" cy="-22" rx="26" ry="22" fill="#213547"/>
-    <ellipse cx="140" cy="-4" rx="14" ry="5" fill="#213547"/>
-    <ellipse cx="22" cy="-4" rx="12" ry="5" fill="#213547"/>
-    <ellipse cx="44" cy="-4" rx="12" ry="5" fill="#213547"/>
-    <circle cx="34" cy="-33" r="20" fill="#213547"/>
-    <path d="M17,-42 L19,-64 L33,-50 Z M35,-50 L49,-64 L51,-42 Z" fill="#213547" stroke="#213547" stroke-width="3" stroke-linejoin="round"/>
-    <path d="M23,-33 q4,4 8,0 M38,-33 q4,4 8,0" fill="none" stroke="#e9eef1" stroke-width="2" stroke-linecap="round"/>
+  <g transform="translate(610 77) scale(1)">
+  <g class="cat" fill="#213547">
+    <path class="tail" d="M154,-10 C176,-10 182,4 180,20 C179,32 184,40 194,42" fill="none" stroke="#213547" stroke-width="9" stroke-linecap="round"/>
+    <path d="M30,0 C26,-22 44,-34 72,-35 C100,-36 122,-40 142,-36 C160,-32 166,-16 162,-6 C160,-2 156,0 150,0 Z"/>
+    <rect x="4" y="-9" width="44" height="9" rx="4.5"/>
+    <ellipse cx="36" cy="-40" rx="21" ry="18"/>
+    <path d="M18,-47 Q16,-66 22,-68 Q28,-64 34,-56 Z M38,-56 Q46,-66 52,-68 Q57,-64 54,-47 Z" stroke="#213547" stroke-width="3" stroke-linejoin="round"/>
+    <g fill="none" stroke="#e9eef1" stroke-width="2" stroke-linecap="round">
+      <path d="M25,-41 q4,3 8,0 M40,-41 q4,3 8,0"/>
+      <path d="M124,-3 C118,-20 138,-30 154,-18" opacity="0.45"/>
+      <path d="M48,-1 C44,-5 40,-9 32,-9" opacity="0.45"/>
+    </g>
   </g>
   </g>
 </svg>

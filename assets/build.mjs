@@ -32,28 +32,29 @@ const themes = {
 }
 
 const layouts = {
-  desktop: { width: 880, height: 404, catX: 610, catScale: 1, pad: 48, h1: 46, body: 17, nav: true },
-  mobile: { width: 420, height: 432, catX: 196, catScale: 0.8, pad: 24, h1: 34, body: 15, nav: false },
+  desktop: { width: 880, height: 416, catX: 610, catScale: 1, pad: 48, h1: 46, body: 17, nav: true },
+  mobile: { width: 420, height: 420, catX: 196, catScale: 0.8, pad: 24, h1: 34, body: 15, nav: false },
 }
 
-// Lying cat facing left; origin is where its belly touches the window roof.
+// Lying cat facing left, front paw stretched out; origin is where its belly touches the window roof.
 function cat(t) {
   return `
-  <g class="cat">
-    <path class="tail" d="M150,-12 C172,-12 180,2 178,20 C177,32 182,40 192,42" fill="none" stroke="${t.cat}" stroke-width="9" stroke-linecap="round"/>
-    <ellipse cx="88" cy="-19" rx="60" ry="19" fill="${t.cat}"/>
-    <ellipse cx="128" cy="-22" rx="26" ry="22" fill="${t.cat}"/>
-    <ellipse cx="140" cy="-4" rx="14" ry="5" fill="${t.cat}"/>
-    <ellipse cx="22" cy="-4" rx="12" ry="5" fill="${t.cat}"/>
-    <ellipse cx="44" cy="-4" rx="12" ry="5" fill="${t.cat}"/>
-    <circle cx="34" cy="-33" r="20" fill="${t.cat}"/>
-    <path d="M17,-42 L19,-64 L33,-50 Z M35,-50 L49,-64 L51,-42 Z" fill="${t.cat}" stroke="${t.cat}" stroke-width="3" stroke-linejoin="round"/>
-    <path d="M23,-33 q4,4 8,0 M38,-33 q4,4 8,0" fill="none" stroke="${t.catEye}" stroke-width="2" stroke-linecap="round"/>
+  <g class="cat" fill="${t.cat}">
+    <path class="tail" d="M154,-10 C176,-10 182,4 180,20 C179,32 184,40 194,42" fill="none" stroke="${t.cat}" stroke-width="9" stroke-linecap="round"/>
+    <path d="M30,0 C26,-22 44,-34 72,-35 C100,-36 122,-40 142,-36 C160,-32 166,-16 162,-6 C160,-2 156,0 150,0 Z"/>
+    <rect x="4" y="-9" width="44" height="9" rx="4.5"/>
+    <ellipse cx="36" cy="-40" rx="21" ry="18"/>
+    <path d="M18,-47 Q16,-66 22,-68 Q28,-64 34,-56 Z M38,-56 Q46,-66 52,-68 Q57,-64 54,-47 Z" stroke="${t.cat}" stroke-width="3" stroke-linejoin="round"/>
+    <g fill="none" stroke="${t.catEye}" stroke-width="2" stroke-linecap="round">
+      <path d="M25,-41 q4,3 8,0 M40,-41 q4,3 8,0"/>
+      <path d="M124,-3 C118,-20 138,-30 154,-18" opacity="0.45"/>
+      <path d="M48,-1 C44,-5 40,-9 32,-9" opacity="0.45"/>
+    </g>
   </g>`
 }
 
 function svg(t, l) {
-  const roof = 64
+  const roof = 76
   const winH = l.height - roof - 4
   const navHtml = l.nav
     ? `<nav><span>stack</span><span>github</span><span>contact</span></nav>`

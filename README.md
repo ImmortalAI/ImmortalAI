@@ -8,7 +8,7 @@
 ### Stack
 
 <p>
-  <img src="https://skillicons.dev/icons?i=vue,nuxt,cs,dotnet,c,cpp,py" alt="Vue, Nuxt, C#, .NET, C, C++, Python" />
+  <img src="https://skillicons.dev/icons?i=vue,nuxt,ts,cs,dotnet,c,cpp,py" alt="Vue, Nuxt, TypeScript, C#, .NET, C, C++, Python" />
 </p>
 <p>
   <img src="https://skillicons.dev/icons?i=docker,githubactions,nginx,linux,grafana,prometheus" alt="Docker, GitHub Actions, Nginx, Linux, Grafana, Prometheus" />
@@ -19,7 +19,7 @@
 ### On GitHub
 
 <p>
-  <img height="165" src="https://github-stats-extended.vercel.app/api?username=ImmortalAI&show_icons=true&rank_icon=github&include_all_commits=true&hide_border=true&bg_color=00000000&title_color=42b883&icon_color=42b883&text_color=8b949e&ring_color=42b883&custom_title=Stats" alt="GitHub stats" />
+  <img height="165" src="https://github-stats-extended.vercel.app/api?username=ImmortalAI&show_icons=true&rank_icon=github&hide=contribs&include_all_commits=true&hide_border=true&bg_color=00000000&title_color=42b883&icon_color=42b883&text_color=8b949e&ring_color=42b883&custom_title=Stats" alt="GitHub stats" />
   <img height="165" src="https://github-stats-extended.vercel.app/api/top-langs/?username=ImmortalAI&layout=compact&langs_count=6&hide_border=true&bg_color=00000000&title_color=42b883&text_color=8b949e&custom_title=Languages" alt="Top languages" />
 </p>
 <p>
